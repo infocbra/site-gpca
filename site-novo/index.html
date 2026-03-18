@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+        <meta name="description" content="" />
+        <meta name="author" content="GPCA" />
+        <title>GPCA - Grupo de Pesquisa em Computação Aplicada</title>
+        <!-- Favicon-->
+        <link rel="icon" type="image/x-icon" href="assets/gpca.ico" />
+        <!-- Custom Google font-->
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@100;200;300;400;500;600;700;800;900&amp;display=swap" rel="stylesheet" />
+        <!-- Bootstrap icons-->
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.1/font/bootstrap-icons.css" rel="stylesheet" />
+        <!-- Core theme CSS (includes Bootstrap)-->
+        <link href="css/styles.css" rel="stylesheet" />
+    </head>
+    <body class="d-flex flex-column h-100">
+        <main class="flex-shrink-0">
+            <!-- Navigation-->
+            <nav class="navbar navbar-expand-lg navbar-light bg-white py-3">
+                <div class="container px-5">
+                    <a class="navbar-brand" href="index.html"><span class="fw-bolder text-primary">GPCA</span></a>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
+                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                        <ul class="navbar-nav ms-auto mb-2 mb-lg-0 small fw-bolder">
+                            <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+                            <li class="nav-item"><a class="nav-link" href="resume.html">Sobre</a></li>
+                            <li class="nav-item"><a class="nav-link" href="projects.html">Projetos</a></li>
+                            <li class="nav-item"><a class="nav-link" href="contact.html">Contatos</a></li>
+                            <li class="nav-item"><a class="nav-link" href="professores.html">Professores</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+            <!-- Header-->
+            <header class="py-5">
+                <div class="container px-5 pb-5">
+                    <div class="row gx-5 align-items-center">
+                        <div class="col-xxl-5">
+                            <!-- Header text content-->
+                            <div class="text-center text-xxl-start">
+                                <div class="badge bg-gradient-primary-to-secondary text-white mb-4">
+                               <div class="bg-gradient-primary-to-secondary text-uppercase">Pesquisa &middot; Projetos &middot; Computação</div> <!-- Código alterado para a cor padão do site com uma div específca para não afetar outras classes-->
+                                </div>
+                                <div class="fs-3 fw-light text-muted">Grupo de Pesquisa em</div>
+                                <h1 class="display-3 fw-bolder mb-5"><span class="text-primary d-inline">Computação Aplicada</span></h1>   <!-- Remoção do texto gradiente -->
+                                <div class="d-grid gap-3 d-sm-flex justify-content-sm-center justify-content-xxl-start mb-3">
+                                    <a class="btn btn-primary btn-lg px-5 py-3 me-sm-3 fs-6 fw-bolder" href="resume.html">Sobre</a>
+                                    <a class="btn btn-outline-dark btn-lg px-5 py-3 fs-6 fw-bolder" href="projects.html">Projetos</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-xxl-7">
+                            <!-- Banner rotativo GPCA -->
+                            <div class="mt-5 mt-xxl-0">
+                                <div id="gpcaCarousel" class="carousel slide" data-bs-ride="carousel">
+                                    <!-- Indicadores -->
+                                    <div class="carousel-indicators">
+                                        <button type="button" data-bs-target="#gpcaCarousel" data-bs-slide-to="0"
+                                                class="active" aria-current="true" aria-label="Slide 1"></button>
+                                        <button type="button" data-bs-target="#gpcaCarousel" data-bs-slide-to="1"
+                                                aria-label="Slide 2"></button>
+                                        <button type="button" data-bs-target="#gpcaCarousel" data-bs-slide-to="2"
+                                                aria-label="Slide 3"></button>
+                                    </div>
+
+                                    <!-- Slides -->
+                                    <div class="carousel-inner rounded-3 shadow">
+                                        <div class="carousel-item active">
+                                            <img src="assets/banner_gpca1.jpg" class="d-block w-100"
+                                                alt="Equipe do GPCA em atividade no IFB.">
+                                           <div class="carousel-caption d-none d-md-block">
+                                                <div class="caption-overlay rounded-3 p-3">
+                                                    <h5 class="mb-1">GPCA em ação</h5>
+                                                    <p class="mb-0">Inovação em computação aplicada no Instituto Federal de Brasília.</p>
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                        <div class="carousel-item">
+                                            <img src="assets/banner_gpca2.jpg" class="d-block w-100"
+                                                alt="Pesquisadores do GPCA apresentando trabalhos.">
+                                            <div class="carousel-caption d-none d-md-block">
+                                                 <div class="caption-overlay rounded-3 p-3">
+                                                    <h5>Pesquisa e Extensão</h5>
+                                                    <p>Projetos conectando tecnologia, saúde, educação e indústria.</p>
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                        <div class="carousel-item">
+                                            <img src="assets/banner_gpca3.jpg" class="d-block w-100"
+                                                alt="Foto de evento científico com participação do GPCA.">
+                                            <div class="carousel-caption d-none d-md-block">
+                                                <div class="caption-overlay rounded-3 p-3">
+                                                    <h5>Formação de Pesquisadores</h5>
+                                                    <p>Estudantes e docentes construindo soluções para desafios reais.</p>
+                                                </div>
+                                        </div>
+                                    </div>
+
+                                    <!-- Controles -->
+                                    <button class="carousel-control-prev" type="button"
+                                            data-bs-target="#gpcaCarousel" data-bs-slide="prev">
+                                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                        <span class="visually-hidden">Anterior</span>
+                                    </button>
+                                    <button class="carousel-control-next" type="button"
+                                            data-bs-target="#gpcaCarousel" data-bs-slide="next">
+                                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                        <span class="visually-hidden">Próximo</span>
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </header>
+            <!-- About Section-->
+            <section class="bg-light py-5">
+                <div class="container px-5">
+                    <div class="row gx-5 justify-content-center">
+                        <div class="col-xxl-8">
+                            <div class="text-center my-5">
+                               <!--<h2 class="display-5 fw-bolder"><span class="text-gradient d-inline">Sobre o GPCA</span></h2>  teste--> 
+                               <h2 class="display-5 fw-bolder"><span class="titulo-gpca-gradiente d-inline">Sobre o GPCA</span></h2>
+                                <p class="lead fw-light mb-4">Grupo de Pesquisa em Computação Aplicada</p>
+                                <p class="text-muted">O Grupo de Pesquisa em Computação Aplicada (GPCA) é um grupo registrado na base do CNPq desde
+                                    setembro de 2019,
+                                    sediado no Instituto Federal de Brasília (IFB) – Campus Brasília. É liderado pelo Prof. Dr. Fábio Henrique Monteiro
+                                    Oliveira e
+                                    pelo Prof. Me. Tiago Henrique Faccio Segato. O grupo desenvolve projetos de pesquisa, desenvolvimento e inovação
+                                    tecnológica
+                                    com foco em sistemas computacionais, aplicativos móveis, ciência de dados aplicada e interação humano-computador.
+                                    Atualmente,
+                                    conta com a participação de cerca de 35 integrantes, entre professores, profissionais, estudantes de graduação e
+                                    pós-graduação.
+                                </p>
+                                <div class="d-flex justify-content-center fs-2 gap-4">
+                                    <a class="text-gradient" href="#!"><i class="bi bi-instagram"></i></a>
+                                    <a class="text-gradient" href="#!"><i class="bi bi-linkedin"></i></a>
+                                    <a class="text-gradient" href="#!"><i class="bi bi-github"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </main>
+        <!-- Footer-->
+        <footer class="bg-white py-4 mt-auto">
+            <div class="container px-5">
+                <div class="row align-items-center justify-content-between flex-column flex-sm-row">
+                    <div class="col-auto"><div class="small m-0">Copyright &copy; GPCA 2025</div></div>
+                    <div class="col-auto">
+                        <a class="small" href="#!">Privacidade</a>
+                        <span class="mx-1">&middot;</span>
+                        <a class="small" href="#!">Termos</a>
+                        <span class="mx-1">&middot;</span>
+                        <a class="small" href="#!">Contatos</a>
+                    </div>
+                </div>
+            </div>
+        </footer>
+        <!-- Bootstrap core JS-->
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
+        <!-- Core theme JS-->
+        <script src="js/scripts.js"></script>
+    </body>
+</html>
