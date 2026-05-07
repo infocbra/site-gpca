@@ -11869,3 +11869,9 @@ body.site-page {
   border-style: dashed;
   background: rgba(var(--bs-primary-rgb), 0.04);
 }
+
+.team-card img {
+  width: 110px;
+  height: 110px;
+  object-fit: cover;
+}
