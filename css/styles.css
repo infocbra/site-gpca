@@ -91,10 +91,11 @@
 
 /*
 Classes e media querys criadas por um colaborador.
-Acima delas, explicarei o motivo de as ter adicionado
+Acima delas, explicarei o motivo de as ter adicionado.
 Caso adicione outras, peço que faça o mesmo: 
 informe o motivo acima delas, utilizando comentários
 */
+
 
 /* Abaixo, estão as coordenadas da logo parceiros.svg em relação à a coluna da direita. Escolhi valores que a deixasse no canto inferior esquerdo
 da logo do gpca. Mais tarde, medias querys serão adicionadas, ajustando as propriedades "bottom" e "left" conforme
@@ -104,6 +105,12 @@ a largura da tela e logo diminui: */
   bottom: 20px;
   left: 30px;
 }
+
+/* Tamanho das logos no sobre em index.html*/
+.logossobre{
+  height: 400px;
+}
+
 
 /*
 Fim das classes adicionadas
