@@ -96,8 +96,17 @@ Caso adicione outras, peço que faça o mesmo:
 informe o motivo acima delas, utilizando comentários
 */
 
+/* Abaixo, estão as coordenadas da logo parceiros.svg em relação à a coluna da direita. Escolhi valores que a deixasse no canto inferior esquerdo
+da logo do gpca. Mais tarde, medias querys serão adicionadas, ajustando as propriedades "bottom" e "left" conforme
+a largura da tela e logo diminui: */
+
+.coordenadaParceiros{
+  bottom: 20px;
+  left: 30px;
+}
+
 /*
-Fim das tags adicionadas
+Fim das classes adicionadas
 */
 
 @media (prefers-reduced-motion: no-preference) {
