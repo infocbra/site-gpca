@@ -89,6 +89,17 @@
   box-sizing: border-box;
 }
 
+/*
+Classes e media querys criadas por um colaborador.
+Acima delas, explicarei o motivo de as ter adicionado
+Caso adicione outras, peço que faça o mesmo: 
+informe o motivo acima delas, utilizando comentários
+*/
+
+/*
+Fim das tags adicionadas
+*/
+
 @media (prefers-reduced-motion: no-preference) {
   :root {
     scroll-behavior: smooth;
