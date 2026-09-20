@@ -101,16 +101,31 @@ informe o motivo acima delas, utilizando comentários
 da logo do gpca. Mais tarde, medias querys serão adicionadas, ajustando as propriedades "bottom" e "left" conforme
 a largura da tela e logo diminui: */
 
-.coordenadaParceiros{
+#parceiros{
   bottom: 20px;
   left: 30px;
 }
 
-/* Tamanho das logos no sobre em index.html*/
-.logossobre{
-  height: 400px;
-}
+/* Tamanho da logo do IFB na sessão 'sobre' em index.html*/
+#logoifb{
+  height: 300px;
+} 
 
+/*logo do GPCA da hero section */
+#heroGPCA{
+  height: 500px;
+  /* Bottom 60px, pois esta logo está setada como posicion-relative, e 60px é o suficiente pra dar
+  à logo um efeito de estar mais próxima ao nav que o restante dos elementos de sua linha (h1 do site, etc) */
+  bottom: 30px;
+  left: -30px;
+}
+.pos{
+  bottom: 60px;
+}
+/* Faz com que a largura de uma div se limite aos elementos dentro dela */
+.caixa-enxuta{
+  width: fit-content;
+}
 
 /*
 Fim das classes adicionadas
