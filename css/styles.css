@@ -116,7 +116,7 @@ a largura da tela e logo diminui: */
   height: 500px;
   /* Bottom 60px, pois esta logo está setada como posicion-relative, e 60px é o suficiente pra dar
   à logo um efeito de estar mais próxima ao nav que o restante dos elementos de sua linha (h1 do site, etc) */
-  bottom: 30px;
+  bottom: 70px;
   left: -30px;
 }
 .pos{
