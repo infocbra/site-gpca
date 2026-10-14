@@ -10,8 +10,8 @@
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@100;200;300;400;500;600;700;800;900&amp;display=swap" rel="stylesheet" />
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.1/font/bootstrap-icons.css" rel="stylesheet" />
-    <link href="css/styles.css" rel="stylesheet" />
+     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/styles.css">
     
 </head>
 <body class="d-flex flex-column h-100 site-page">
@@ -22,7 +22,7 @@
                 <span class="navbar-toggler-icon"></span>
             </button>
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                <ul class="navbar-nav ms-auto mb-2 mb-lg-0 small fw-bolder">
+                <ul class="navbar-nav ms-auto mb-2 mb-lg-0 fw-bolder">
                     <li class="nav-item"><a class="nav-link active" aria-current="page" href="index.html">Home</a></li>
                     <li class="nav-item"><a class="nav-link" href="resume.html">Sobre</a></li>
                     <li class="nav-item"><a class="nav-link" href="projects.html">Projetos</a></li>
@@ -62,62 +62,96 @@
                         <a class="btn btn-outline-dark btn-lg px-5 py-3 fs-6 fw-bolder" href="projects.html">Projetos</a>
                     </div>
                     <div id="parceiros" class="mt-5">
-                        <img src="assets/logos/parceiros.svg" alt="logos horizontais do IFB e CNPq, dispostas, nesta ordem, uma ao lado da outra, numa distância de aproximadamente 15 pixels, posicionadas no canto inferior esquerdo à logo do grupo.">
+                        <img class="tamanhoparceiros" src="assets/logos/parceiros.png" alt="logos horizontais do IFB e CNPq, dispostas, nesta ordem, uma ao lado da outra, numa distância de aproximadamente 15 pixels, posicionadas no canto inferior esquerdo à logo do grupo.">
                     </div>
                 </div>
             </div>
             <div class="col-lg-6 d-flex position-relative justify-content-sm-start z-n1">
                 <div id="heroGPCA" class="position-absolute caixa-enxuta">
-                    <img src="assets/logos/gpcaSVG.svg" class="h-100 opacity-75" alt="logo do grupo à direita dos textos iniciais do cabeçalho">
+                    <img src="assets/logos/gpcaSVG.svg" class="h-100 " alt="logo do grupo à direita dos textos iniciais do cabeçalho">
                 </div>
             </div>
         </div>
     </div>
 </header>
 
-<section class="bg-light py-5">
-    <div class="container py-5">
+<section class="bg-fachada bg-80 py-5">
+
+    
+    <div class="container py-1">
         <div class="row">
             <!--coluna da esquerda-->
-            <div class="col-lg-2 d-flex justify-content-lg-start">
-                <div class="">
-                    <img src="assets/logos/ifb-vrt.png" id="logoifb" alt="logo vertical do ifb">
-                </div>
-            </div>
-
-            <!--coluna da direita-->
             <div class="col-lg-10 d-block">
                 <h2 class="fs-1 fw-bolder text-center">
                     <span class="titulo-gpca-gradiente">Onde estamos</span>
                 </h2>
-                <p class="fs-5 fw-regular text-lg-start "  >
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Inventore non aperiam nihil rerum adipisci eaque eum sed ducimus mollitia doloribus? Iusto maiores rem consequatur fugit nobis obcaecati cumque aspernatur nam! 
-                    <br> 
-                    Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dicta vitae fuga fugiat omnis modi, at explicabo voluptatibus quia vero? Optio impedit necessitatibus quia. Perferendis dolores mollitia tempore accusantium. Quo, eos!!
+                <p class="fs-5 fw-regular text-lg-start"  >
+                    O Grupo de Pesquisa em Computação Aplicada nasceu e atua dentro do IFB Campus Brasília, imerso no ecossistema de educação pública e tecnologia da capital.
+                    Para nos encontrar presencialmente, basta seguir até o Bloco G, sala G2-09. É lá que fica o nosso laboratório principal, o LabGPCA!
                 </p>
+            </div>
+
+            <!--coluna da direita-->
+
+            <div class="col-lg-2 d-flex justify-content-center  ">
+                <div class="">
+                    <img class="logoifb" src="assets/logos/ifb-vrt.trans.png" alt="logo vertical do ifb">
+                </div>
             </div>
         </div>
     </div>
 </section>
 
 <section class="bg-white py-5">
-    <div class="container py-5">
+    <div class="container">
         <div class="row ">
             <!--coluna da esquerda-->
+            <div class="position-relative col-lg-3 d-flex justify-content-lg-end">
+                <div id="carouselExampleIndicators" class="carousel slide">
+                <div class="carousel-indicators">
+                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                </div>
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                    <img src="assets/img/gerais/dogedog.png" class="d-block w-100" alt="...">
+                    </div>
+                    <div class="carousel-item">
+                    <img src="..." class="d-block w-100" alt="...">
+                    </div>
+                    <div class="carousel-item">
+                    <img src="..." class="d-block w-100" alt="...">
+                    </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                </button>
+            </div>
+                <div class="pos-div-logo-carousel d-inline position-absolute">
+                    <img src="assets/logos/gpcaSVG.svg" class="logo-carousel" alt="logo do grupo à direita dos textos iniciais do cabeçalho">
+                </div>
+            </div>
+
+            <!--coluna da direita-->
+            
             <div class="col-lg-9">
                 <h2 class="fs-1 fw-bolder text-center">
-                    <span class="titulo-gpca-gradiente">Laboratório</span>
+                    <span class="titulo-gpca-gradiente">Laboratório de Computação Aplicada</span>
                 </h2>
-                <p class="fs-5 fw-regular text-lg-start">Lorem ipsum dolor sit amet consectetur adipisicing elit. Inventore non aperiam nihil rerum adipisci eaque eum sed ducimus mollitia doloribus? Iusto maiores rem consequatur fugit nobis obcaecati cumque aspernatur nam! 
-                    <br> 
-                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dicta vitae fuga fugiat omnis modi, at explicabo voluptatibus quia vero? Optio impedit necessitatibus quia. Perferendis dolores mollitia tempore accusantium. Quo, eos!
+                <p class="text-center fs-3 text-muted">– LabGPCA</p>
+            
+                <p class="fs-5 fw-regular text-lg-start">
+                    Registrado no CNPq desde 2019, o espaço é utilizado para reuniões do grupo, orientações de TCC, PIBIC e PIBITI, desenvolvimento de projetos de pesquisa e atividades em parceria com outras instituições. Também é disponibilizado aos estudantes vinculados ao GPCA para estudo, desenvolvimento e experimentação.
                 </p>
-            </div>
-            <!--coluna da direita-->
-            <div class="col-lg-3 d-flex justify-content-lg-end">
-                <div class="">
-                    <img src="assets/logos/gpcaSVG.svg" class="w-100 h-100" alt="logo do grupo à direita dos textos iniciais do cabeçalho">
-                </div>
+                <p class="fs-5 fw-regular text-lg-start">
+                    O laboratório conta ainda com equipamentos e infraestrutura computacional para pesquisa, desenvolvimento tecnológico e inovação nas áreas de software e eletrônica.
+                </p>
             </div>
         </div>
     </div>
@@ -126,19 +160,13 @@
     </main>
     <footer class="bg-white py-4 mt-auto border-top">
         <div class="container px-4 px-lg-5">
-            <div class="row align-items-center justify-content-between flex-column flex-sm-row gy-2">
-                <div class="col-auto"><div class="small m-0">Copyright &copy; GPCA 2026</div></div>
+            <div class="row align-items-center gy-2">
                 <div class="col-auto">
-                    <a class="small" href="resume.html">Sobre</a>
-                    <span class="mx-1">&middot;</span>
-                    <a class="small" href="equipe.html">Equipe</a>
-                    <span class="mx-1">&middot;</span>
-                    <a class="small" href="contact.html">Contatos</a>
+                    <span class="small m-0">Copyright &copy;GPCA 2026</span>
                 </div>
             </div>
         </div>
     </footer>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
-    <script src="js/scripts.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
 </body>
 </html>
