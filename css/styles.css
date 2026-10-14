@@ -20,11 +20,17 @@
     --bs-border-color-translucent: rgba(0, 0, 0, 0.175);
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 *,
 *::before,
 *::after {
   box-sizing: border-box;
 }
+
+/* sobrescrita de configuracoes padroes do bootstrap */
 
 body {
   margin: 0;
@@ -58,14 +64,6 @@ body {
 .bg-gradient-primary-to-secondary {
     background: #4682A0;
     background: linear-gradient(135deg, #4682A0 0%, #2C536B 100%);
-}
-
-.titulo-gpca-gradiente {
-    color: #4682A0;
-    -webkit-text-fill-color: #4682A0;
-    background-image: none;
-    -webkit-background-clip: unset;
-    background-clip: unset;
 }
 
 .text-gradient {
@@ -140,6 +138,25 @@ informe o motivo acima delas, utilizando comentários
     display: inline;
 }
 
+/* cor titulos */
+
+.titulo-gpca-gradiente {
+    color: #4682A0;
+    -webkit-text-fill-color: #4682A0;
+    background-image: none;
+    -webkit-background-clip: unset;
+    background-clip: unset;
+}
+
+.color-white{
+    color: white;
+}
+
+/* cor fundos */
+
+.bg-blue{
+    background-color: var(--bs-blue);
+}
 
 /* Abaixo, estão as coordenadas da logo parceiros.svg em relação à a coluna da direita. Escolhi valores que a deixasse no canto inferior esquerdo
 da logo do gpca. Mais tarde, medias querys serão adicionadas, ajustando as propriedades "bottom" e "left" conforme
@@ -218,6 +235,16 @@ a largura da tela e logo diminui: */
 
 .logo-carousel{
      width: 80px;
+}
+
+/* PROJETOS.HTML */
+
+.border-div{
+    border: 5px solid #2C536B;
+}
+
+.tamanho-logo-projetos{
+    height: 300px;
 }
 
 /*
