@@ -158,6 +158,12 @@ informe o motivo acima delas, utilizando comentários
     background-color: var(--bs-blue);
 }
 
+/* cor bordas */
+
+.border-div{
+    border: 5px solid #2C536B;
+}
+
 /* Abaixo, estão as coordenadas da logo parceiros.svg em relação à a coluna da direita. Escolhi valores que a deixasse no canto inferior esquerdo
 da logo do gpca. Mais tarde, medias querys serão adicionadas, ajustando as propriedades "bottom" e "left" conforme
 a largura da tela e logo diminui: */
@@ -239,12 +245,21 @@ a largura da tela e logo diminui: */
 
 /* PROJETOS.HTML */
 
-.border-div{
-    border: 5px solid #2C536B;
-}
+
 
 .tamanho-logo-projetos{
     height: 300px;
+}
+
+/* CONTATOS.HTML  */
+
+#contatos{
+    height: 100%;
+    max-height: 1000px;
+}
+
+.card-contato{
+    height: 100%;
 }
 
 /*

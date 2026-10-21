@@ -6,7 +6,7 @@
     <meta name="description" content="Página de contato do GPCA" />
     <meta name="author" content="GPCA" />
     <title>Contatos • GPCA</title>
-    <link rel="icon" type="image/x-icon" href="assets/gpca.ico" />
+    <link rel="icon" type="image/x-icon" href="assets/logos/gpca.ico" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@100;200;300;400;500;600;700;800;900&amp;display=swap" rel="stylesheet" />
@@ -14,7 +14,7 @@
     <link rel="stylesheet" href="css/styles.css">
     
 </head>
-<body class="d-flex flex-column site-page">
+<body class="d-flex flex-column min-vh-100">
     <nav class="navbar navbar-expand-lg navbar-light bg-white fixed-top py-3 shadow-sm site-navbar">
         <div class="container px-4 px-lg-5">
             <a class="navbar-brand" href="index.html"><span class="fw-bolder text-primary">GPCA</span></a>
@@ -32,49 +32,24 @@
         </div>
     </nav>
 
-<main class="flex-shrink-0">
+<main id="contatos" class="flex-grow-1 flex-shrink-0 d-flex align-items-center">
         
-<section class="py-5">
-    <div class="container px-4 px-lg-5">
-        <div class="bg-light rounded-4 py-5 px-4 px-md-5 shadow-sm">
-            <div class="text-center mb-5">
-                <div class="feature bg-primary bg-gradient-primary-to-secondary text-white rounded-3 mb-3 d-inline-flex p-2">
-                    <img class="envelope" src="assets/img/gerais/envelope.svg" alt="">
-                </div>
-                <h1 class="titulo-gpca-gradiente fw-bolder">Entre em contato</h1>
-                <p class="lead fw-normal text-muted mb-0">Vamos pesquisar juntos.</p>
+    <div class="bg-light p-5 rounded-4 shadow-sm container d-flex flex-column justify-content-center align-items-center">
+        
+        <h1 class="text-primary fs-2 fw-bolder text-center">
+            Entre em contato
+        </h1>
+        <div class="d-flex align-items-center">
+            <div class="button feature bg-primary bg-gradient-primary-to-secondary d-inline-flex text-white rounded-3 p-2">
+                <img class="envelope" src="assets/img/gerais/envelope.svg" alt="">
             </div>
-            <div class="row gx-5 justify-content-center">
-                <div class="col-lg-8 col-xl-6">
-                    <form id="contactForm" novalidate>
-                        <div class="form-floating mb-3">
-                            <input class="form-control" id="name" type="text" placeholder="Nome completo" />
-                            <label for="name">Nome completo</label>
-                        </div>
-                        <div class="form-floating mb-3">
-                            <input class="form-control" id="email" type="email" placeholder="nome@exemplo.com" />
-                            <label for="email">E-mail</label>
-                        </div>
-                        <div class="form-floating mb-3">
-                            <input class="form-control" id="phone" type="tel" placeholder="(61) 99999-9999" />
-                            <label for="phone">Telefone</label>
-                        </div>
-                        <div class="form-floating mb-4">
-                            <textarea class="form-control" id="message" placeholder="Escreva sua mensagem" style="height: 10rem"></textarea>
-                            <label for="message">Mensagem</label>
-                        </div>
-                        <div class="d-grid">
-                            <button class="btn btn-primary btn-lg disabled" type="button">Envio a configurar</button>
-                        </div>
-                    </form>
-                    <p class="small text-muted mt-3 mb-0">
-                        Ajuste manualmente a estratégia de envio deste formulário caso o site vá usar backend, serviço externo ou redirecionamento por e-mail.
-                    </p>
-                </div>
-            </div>
+            
+            <p class="p-3 fs-4 text-muted mb-0">
+                Envie um e-mail para: 
+            </p>
         </div>
+        
     </div>
-</section>
 
 </main>
     <footer class="bg-white py-4 mt-auto border-top">
