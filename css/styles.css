@@ -134,8 +134,8 @@ informe o motivo acima delas, utilizando comentários
     border: 2px solid rgb(128, 0, 0);
 }
 
-.teste1{
-    display: inline;
+.teste{
+    height: 1200px;
 }
 
 /* cor titulos */
@@ -187,12 +187,14 @@ a largura da tela e logo diminui: */
 /*logo do GPCA da hero section */
 
 #heroGPCA{
-    height: 500px;
+    height: 100%;
     /* Bottom 60px, pois esta logo está setada como posicion-relative, e 60px é o suficiente pra dar
     à logo um efeito de estar mais próxima ao nav que o restante dos elementos de sua linha (h1 do site, etc) */
     bottom: 70px;
     left: -30px;
 }
+
+
 
 .pos{
      bottom: 60px;
@@ -221,7 +223,7 @@ a largura da tela e logo diminui: */
     
     background-image: url(../assets/img/gerais/fachada-ifb.jpg);
     background-position: 50% 43%;
-    background-size: 200vw; 
+    background-size: 3000px; 
     opacity: 0.1;
     z-index: -1; 
     right: 50%;
@@ -266,3 +268,34 @@ a largura da tela e logo diminui: */
 Fim das classes adicionadas
 */
 
+/* responsividade de cada pagina do site */ 
+
+/* index.html:  */
+@media (max-width: 992px){
+
+    #bgheader{
+        position: absolute;
+        top: 0; left: 0; right: 0; bottom: 0;
+        
+        background-image: url(../assets/logos/gpcaSVG.svg);
+        background-position: 50% 43%;
+        background-size: 1000px; 
+        opacity: 0.08;
+        z-index: -1; 
+        right: 50%;
+        left: 50%;
+        transform: translateX(-50%);
+
+        width: 100vw;
+    
+    }
+
+    #heroGPCA{
+    position: static !important;
+    display: none;
+    }
+
+    .tamanhoparceiros{
+        height: 50px;
+    }
+}
