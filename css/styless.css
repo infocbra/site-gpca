@@ -113,7 +113,7 @@ body {
 
 .carousel-tamanho{
     width: 100%;
-    height: fit-content;
+    
 }
 
 
@@ -245,6 +245,65 @@ a largura da tela e logo diminui: */
 .logo-carousel{
      width: 80px;
 }
+.carousel-item img{
+    height: 400px;
+    object-fit: cover;
+}
+.obj-pos-top{
+    object-position: top;
+}
+
+@media (width < 576px) {
+    .carousel-item img{
+        max-height: 60vw; 
+        object-fit: cover;
+    }
+    .obj-pos-top{ 
+        object-position: 0px 0px;
+    }
+}
+
+@media (576px <= width < 768px) {
+    .carousel-item img{
+        max-height: 320px;
+    }
+    .obj-pos-top{ 
+        object-position: 0px 0px;
+    }
+}
+
+@media (768px <= width < 992px) {
+    .carousel-item img{
+        max-height: 70vw; 
+    }
+    .obj-pos-top{ 
+        object-position: 0px 0px;
+    }
+}
+
+@media (992px <= width < 1200px) {
+    .carousel-tamanho{
+        width: 800px;
+    }
+    .carousel-item img{
+        height: 450px;
+    }
+    .obj-pos-top{
+        object-position: 0px -30px;
+    }
+}
+
+@media screen and (1200px <= width < 1400px) {
+    .carousel-item img{
+        height: 340px;
+    }
+}
+
+
+
+
+
+
 
 /* PROJETOS.HTML */
 
