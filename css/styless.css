@@ -152,11 +152,20 @@ informe o motivo acima delas, utilizando comentários
     color: white;
 }
 
+.color-black{
+    color: black;
+}
+
 /* cor fundos */
 
 .bg-blue{
     background-color: var(--bs-blue);
 }
+
+c{
+    background-color: #F5EDF0;
+}
+
 
 /* cor bordas */
 
@@ -261,6 +270,12 @@ a largura da tela e logo diminui: */
     .obj-pos-top{ 
         object-position: 0px 0px;
     }
+
+    .pos-div-logo-carousel{
+        right: -10px;
+        top: -30px;
+        rotate: 10deg;
+    }
 }
 
 @media (576px <= width < 768px) {
@@ -310,7 +325,7 @@ a largura da tela e logo diminui: */
 
 
 .tamanho-logo-projetos{
-    height: 300px;
+    height: 200px;
 }
 
 /* EQUIPE.HTML */
@@ -376,7 +391,7 @@ Fim das classes adicionadas
     }
 
     .logoifb{
-        height: 120px;
+        height: 80px;
     }
 
     /* projetos.html */
