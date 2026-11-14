@@ -162,10 +162,13 @@ informe o motivo acima delas, utilizando comentários
     background-color: var(--bs-blue);
 }
 
-c{
+.bg-light{
     background-color: #F5EDF0;
 }
 
+.bg-gray{
+    background-color: #888888;
+}
 
 /* cor bordas */
 
@@ -315,11 +318,6 @@ a largura da tela e logo diminui: */
 }
 
 
-
-
-
-
-
 /* PROJETOS.HTML */
 
 
@@ -335,6 +333,66 @@ a largura da tela e logo diminui: */
     height: 110px; 
     object-fit: cover;
 }
+
+.div-links{
+    height: 35px;
+    width: 35px;
+}
+
+div:has(> a > svg.bi-link){
+    background-color: black;
+}
+
+.icon-linkutil{
+    height: 35px;
+}
+
+.foto-integrante      { grid-area: foto; }
+.nome-cargo           { grid-area: nome-cargo; 
+                        justify-self: start;
+                        text-align: start;}
+.descricao-integrante { grid-area: descricao; }
+.linksuteis           { grid-area: links; }
+
+.card-integrante{
+    display: grid;
+    grid-template-columns: max-content 1fr;
+    grid-template-areas:
+        "foto nome-cargo "
+        "foto links"
+        "descricao descricao";
+    column-gap: 0.75rem;
+    row-gap: 0.25rem;
+    align-items: center;
+}
+
+@media (min-width: 576px){
+    .card-integrante{
+        grid-template-columns: max-content 1fr;
+        grid-template-areas:
+            "foto nome-cargo "
+            "foto descricao"
+            "foto links";
+        column-gap: 0.75rem;
+        row-gap: 0.25rem;
+    }
+    .foto-integrante{
+        width: 160px;
+        height: 160px; 
+        object-fit: cover;
+        direction: row;
+        align-self: flex-start;
+    }
+    .div-links{
+        height: 30px;
+        width: 30px;
+    }
+    .icon-linkutil{
+        height: 30px;
+    }
+}
+
+
 
 /* CONTATOS.HTML  */
 
